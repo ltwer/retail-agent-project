@@ -1,0 +1,46 @@
+# Local credentials and environment configuration
+/.env
+/.env.*
+!/.env.example
+
+# Python environments, bytecode, and test artifacts
+/.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+/.pytest_cache/
+/.mypy_cache/
+/.ruff_cache/
+/.coverage
+/htmlcov/
+
+# Runtime output, temporary data, and private uploads
+/outputs/
+/.export_qa/
+/.qa_screenshots/
+/.test_temp/
+/data/*upload*.csv
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+
+# Downloaded source archives and local workbooks
+*.xlsx
+*.xls
+*.zip
+
+# Local secrets and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS metadata
+Thumbs.db
+.DS_Store
+
+# Internal implementation notes
+/docs/superpowers/
